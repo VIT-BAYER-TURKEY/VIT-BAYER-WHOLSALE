@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sayfam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, section, footer {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #e0e0e0; /* Minimalist gri tonlarında */
+            border-radius: 5px;
+        }
+        header h1 {
+            color: #444;
+            font-size: 2em;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #666;
+        }
+        .portfolio-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #d3d3d3;
+            border-radius: 3px;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #444;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kişisel Web Sayfam</h1>
+            <p>Merhaba! Ben, Türkiye'den yurtdışına toptan kıyafet tedarik eden bir aracıyım. Kadın modasında en son trendleri ve piyasa yeniliklerini sunuyorum.</p>
+        </header>
+        
+        <section id="portfolio">
+            <h2>Portföyüm</h2>
+            <div class="portfolio-item">
+                <h3>Ürün Kategorisi 1</h3>
+                <p>Kategoriye kısa bir açıklama ve örnek ürünler.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Ürün Kategorisi 2</h3>
+                <p>Kategoriye kısa bir açıklama ve örnek ürünler.</p>
+            </div>
+            <!-- Diğer kategoriler burada devam eder -->
+        </section>
+
+        <section id="updates">
+            <h2>Piyasa Yenilikleri ve Kampanyalar</h2>
+            <p>En son piyasa trendleri ve özel kampanya haberlerini burada paylaşacağım.</p>
+        </section>
+        
+        <footer>
+            <h2>İletişim ve Sosyal Medya</h2>
+            <div class="social-media">
+                <a href="https://instagram.com/sizinprofiliniz" target="_blank">Instagram</a>
+                <a href="https://tiktok.com/@sizinprofiliniz" target="_blank">TikTok</a>
+                <a href="https://t.me/sizinprofiliniz" target="_blank">Telegram</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
